@@ -71,7 +71,7 @@ def generate_page(markdown_path, template_path, output_path, base_path):
 def main():
     """Main function to generate the static site."""
     # Get base path from command line argument or use default
-    base_path = sys.argv[1] if len(sys.argv) > 1 else "/"
+    base_path = sys.argv[1] if len(sys.argv) > 1 else "/docs"
     
     # Set up paths
     content_dir = "./content"
